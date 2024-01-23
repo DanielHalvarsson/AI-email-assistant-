@@ -1,4 +1,4 @@
-# AI Email Assistant
+# AI email assistant
 
 ## Description
 This Python script integrates with Microsoft Outlook to read the latest email in your inbox and uses OpenAI's GPT-3.5 model to generate a draft response. The script then creates a draft email in Outlook with this AI-generated response.
