@@ -21,12 +21,11 @@ This Python script integrates with Microsoft Outlook to read the latest email in
 
 4. **Outlook Setup:** Make sure you have Outlook installed and configured with your email account.
 
-5. Run the Script:** Execute the script with Python to start processing emails.
+5. **Run the Script:** Execute the script with Python to start processing emails.
     ```bash
     python ai_email_assistant.py    
 
 ## Usage 
-
 Once setup is complete, execute the script. It will:
 
 1. Access the latest email in your inbox.
@@ -40,11 +39,9 @@ Below is a brief overview of each main function:
 `create_draft_email(response, recipient, email_subject)`: Creates a draft email in Outlook with the specified response, recipient, and subject.
 
 ## Licensing
-
 This project is released under the MIT License. This permissive license allows for free use, modification, and distribution of the software, provided that the original author is credited. For full license text, see [LICENSE.md](LICENSE.md) in this repository.
 
 ## Security Considerations
-
 When using this AI Email Assistant, consider the following security aspects:
 
 - **Email Privacy**: The script interacts with your email data. Ensure you have the necessary permissions and understand the privacy implications of using such scripts with your email account.
