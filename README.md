@@ -52,14 +52,3 @@ When using this AI Email Assistant, consider the following security aspects:
 - **API Key Security**: Your OpenAI API key is sensitive information. Keep it secure and never expose it in public repositories or unsecured locations.
 
 - **Data Handling**: While the script does not store email content or responses, it does process potentially sensitive information. Be cautious of where and how the data is processed, and ensure that the systems running the script are secure.
-
-## Documentation and Comments
-
-The code is well-documented, with comments explaining key functionalities and decisions. Below is a brief overview of each main function:
-
-- `get_latest_email_content()`: Connects to Outlook, retrieves the latest email, and returns its details (subject, body, sender).
-
-- `generate_ai_response(email_subject, email_body)`: Uses OpenAI's GPT-3.5 model to generate a draft response based on the email's content.
-
-- `create_draft_email(response, recipient, email_subject)`: Creates a draft email in Outlook with the AI-generated response, ready for review and sending.
-
